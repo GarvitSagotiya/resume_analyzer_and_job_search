@@ -1,0 +1,92 @@
+.job-card {
+  padding: 28px;
+  border-radius: 24px;
+  background: rgba(255, 255, 255, 0.08);
+  border: 1px solid rgba(255, 255, 255, 0.12);
+  backdrop-filter: blur(16px);
+  box-shadow: 0 14px 30px rgba(0, 0, 0, 0.22);
+  transition: transform 0.35s ease, box-shadow 0.35s ease, border-color 0.35s ease;
+}
+
+.job-card:hover {
+  transform: translateY(-8px);
+  border-color: rgba(59, 130, 246, 0.32);
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.26);
+}
+
+.job-card-top {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 16px;
+  margin-bottom: 18px;
+}
+
+.job-company {
+  display: inline-block;
+  color: #60a5fa;
+  font-size: 0.95rem;
+  margin-bottom: 6px;
+  font-weight: 600;
+}
+
+.job-role {
+  color: #ffffff;
+  font-size: 1.45rem;
+  margin-bottom: 0;
+}
+
+.bookmark-btn {
+  width: 44px;
+  height: 44px;
+  border-radius: 14px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  background: rgba(255, 255, 255, 0.05);
+  color: #ffffff;
+}
+
+.job-meta {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 14px;
+  margin-bottom: 20px;
+  color: #94a3b8;
+  font-size: 0.96rem;
+}
+
+.job-meta span {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.job-skills {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-bottom: 22px;
+}
+
+.job-skills span {
+  padding: 8px 12px;
+  border-radius: 999px;
+  background: rgba(59, 130, 246, 0.12);
+  border: 1px solid rgba(59, 130, 246, 0.2);
+  color: #bfdbfe;
+  font-size: 0.9rem;
+}
+
+.job-actions {
+  display: flex;
+  gap: 12px;
+  flex-wrap: wrap;
+}
+
+.job-actions .btn {
+  border-radius: 14px;
+  padding: 12px 18px;
+  font-weight: 600;
+}
